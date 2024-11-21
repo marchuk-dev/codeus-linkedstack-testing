@@ -5,7 +5,7 @@ import java.util.Objects;
 import java.util.stream.Stream;
 
 public class LinkedStack<T> implements Stack<T> {
-    private static class Node<T> {
+    static class Node<T> {
         T element;
         Node<T> next;
 
